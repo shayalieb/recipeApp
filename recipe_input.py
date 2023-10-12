@@ -70,8 +70,6 @@ for _ in range(num_recipes):
 data['recipes_list'] = recipes_list
 data['all_ingredients'] = all_ingredients
 
-filename = 'recipe.txt'
-
 with open(filename, 'wb') as file:
     # Use pickle.dump() to store the data
     pickle.dump(data, file)

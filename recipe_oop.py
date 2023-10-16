@@ -34,7 +34,7 @@ class Recipe(object):
     def get_ingredients(self):
         print("\nIngredients: ")
         print("=============")
-        for ingredients in self.ingredients:
+        for ingredient in self.ingredients:
             print(' - ' + str(ingredient))
 
     #Getter = Difficulty level
